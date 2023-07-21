@@ -17,7 +17,7 @@ def hello_name(name):
    f = open("count.txt", "w")
    f.write(str(count))
    f.close()
-*Hi friends How are you doing
+
    return render_template('hello.html', name=name, count=count)
 
 if __name__ == '__main__':
